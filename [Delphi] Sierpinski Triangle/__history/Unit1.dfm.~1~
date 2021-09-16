@@ -1,0 +1,58 @@
+﻿object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 694
+  ClientWidth = 871
+  Color = 4227327
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PaintBox1: TPaintBox
+    Left = 280
+    Top = 40
+    Width = 505
+    Height = 505
+    Color = 33023
+    ParentColor = False
+  end
+  object Paint: TButton
+    Left = 80
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = 'Paint'
+    TabOrder = 0
+    OnClick = PaintClick
+  end
+  object a: TEdit
+    Left = 34
+    Top = 144
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'a'
+  end
+  object b: TEdit
+    Left = 34
+    Top = 171
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = 'b'
+  end
+  object с: TEdit
+    Left = 34
+    Top = 198
+    Width = 121
+    Height = 21
+    TabOrder = 3
+    Text = #1089
+  end
+end
